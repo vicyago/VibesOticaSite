@@ -1,0 +1,83 @@
+/*
+*************************************************
+
+---   SECTION   --->   TOP
+   
+*************************************************
+*/
+
+.btn2top .sticky-btn {
+    position: fixed;
+    bottom: -96px;
+    right: 60px;
+    background: #cf9221;
+    border-radius: 50%;
+    transition: all 0.9s ease;
+}
+.btn2top .sticky-btn img {
+    width: 36px;
+    height: 36px;
+}
+.btn2top .sticky-btn.revealed {
+    bottom: 36px;
+    opacity: 1;
+}
+.btn2top a.sticky-btn {
+    font-family: sans-serif;
+    padding: 9px;
+    display: block;
+    transition: all 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+.btn2top a.sticky-btn:hover {
+    color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+    .btn2top .sticky-btn {
+        right: 21px;
+    }
+    .btn2top .sticky-btn.revealed {
+        bottom: 21px;
+    }
+}
+
+/*
+*************************************************
+---   SECTION   --->   WHATSAPP-STICKY  
+*************************************************
+*/
+
+.btn2contact .sticky-btn {
+    position: fixed;
+    bottom: -96px;
+    left: 33px;
+    padding: 12px;
+    border-radius: 50%;
+    transition: all 0.9s ease;
+}
+.btn2contact .sticky-btn:hover {
+    background: rgba(255, 255, 255, 0.81);
+    transform: translateY(-3px);
+}
+.btn2contact .sticky-btn img {
+    width: 45px;
+}
+
+.btn2contact .sticky-btn.revealed {
+    bottom: 36px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .btn2contact .sticky-btn {
+        left: 21px;
+    }
+    .btn2contact .sticky-btn img {
+        width: 36px;
+    }
+    .btn2contact .sticky-btn.revealed {
+        bottom: 21px;
+    }
+}
