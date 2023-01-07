@@ -36,3 +36,17 @@
     max-height: 30%;
     overflow: auto;
 }
+
+.PopHover {
+    color: var(--bg-dark);
+    text-decoration: none;
+}
+
+.PopHover:hover {
+    color: var(--bg-darkest);
+}
+
+.PopHover img:hover {
+    filter: invert(39%) sepia(98%) saturate(3586%) hue-rotate(355deg)
+        brightness(101%) contrast(101%);
+}

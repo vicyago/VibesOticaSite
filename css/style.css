@@ -36,8 +36,7 @@ h3 {
     color: #c9b793;
 }
 
-.hero-btn:hover,
-.nav-link-btn:hover {
+.hero-btn:hover {
     background-color: #c9b793;
     color: #fff;
 }
@@ -88,11 +87,9 @@ h3 {
     transition: 150ms all ease-in-out;
 }
 
-.nav-link-btn {
-    background-color: var(--text-gold);
-    padding: 0.1em 0.75em;
-    border-radius: 100px;
-    transition: 150ms all ease-in-out;
+.nav-link-btn img:hover {
+    scale: 80%;
+    filter: invert(100%);
 }
 
 .nav-toggle {
@@ -309,12 +306,12 @@ h3 {
         width: 100%;
     }
     .colBorder {
-    border-right: none;
-}
+        border-right: none;
+    }
 
-.colBordel {
-    border-left: none;
-}
+    .colBordel {
+        border-left: none;
+    }
 }
 
 @keyframes navLinksFade {
