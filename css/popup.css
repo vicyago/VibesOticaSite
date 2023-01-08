@@ -37,16 +37,16 @@
     overflow: auto;
 }
 
-.PopHover {
+.popHover {
     color: var(--bg-dark);
     text-decoration: none;
 }
 
-.PopHover:hover {
+.popHover:hover {
     color: var(--bg-darkest);
 }
 
-.PopHover img:hover {
+.popHover img:hover {
     filter: invert(39%) sepia(98%) saturate(3586%) hue-rotate(355deg)
         brightness(101%) contrast(101%);
 }
