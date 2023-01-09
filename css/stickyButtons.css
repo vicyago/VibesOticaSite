@@ -58,11 +58,11 @@
     transition: all 0.9s ease;
 }
 .btn2contact .sticky-btn:hover {
-    background: #E46E00;
+    background: #e46e00;
     transform: translateY(-3px);
 }
 .btn2top .sticky-btn:hover {
-    background: #E46E00;
+    background: #e46e00;
     transform: translateY(-3px);
 }
 .btn2contact .sticky-btn img {
