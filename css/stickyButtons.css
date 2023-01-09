@@ -10,13 +10,13 @@
     position: fixed;
     bottom: -96px;
     right: 60px;
-    background: #cf9221;
     border-radius: 50%;
     transition: all 0.9s ease;
+    text-align: center;
 }
 .btn2top .sticky-btn img {
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
 }
 .btn2top .sticky-btn.revealed {
     bottom: 36px;
@@ -58,7 +58,11 @@
     transition: all 0.9s ease;
 }
 .btn2contact .sticky-btn:hover {
-    background: rgba(255, 255, 255, 0.81);
+    background: #E46E00;
+    transform: translateY(-3px);
+}
+.btn2top .sticky-btn:hover {
+    background: #E46E00;
     transform: translateY(-3px);
 }
 .btn2contact .sticky-btn img {
