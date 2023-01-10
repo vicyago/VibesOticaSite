@@ -1,9 +1,9 @@
 :root {
-    --bg-darkest: #ff490d;
-    --bg-dark: #000000;
-    --bg-light: #a5a5a5;
-    --bg-very-light: #f4f5fc;
-    --text-gold: #ee701e;
+    --bg-darkest: #FF8800;
+    --bg-dark: #ff8800;
+    --bg-light: #d1d1d1;
+    --bg-very-light: white;
+    --text-gold: #ffffff;
 }
 
 * {
@@ -28,21 +28,21 @@ section {
 h2,
 h3 {
     margin-bottom: 1em;
-    color: var(--text-gold);
+    color: var(--bg-darkest);
 }
 
 .nav-link:hover,
 .footer-col a:hover {
-    color: #c9b793;
+    color: #ffffff;
 }
 
 .hero-btn:hover {
-    background-color: #c9b793;
-    color: #fff;
+    background-color: #FF8800;
+    color: black;
 }
 
 .nav-toggle:hover {
-    background-color: #c9b793;
+    background-color: #FF8800;
 }
 
 .navbar {
@@ -83,7 +83,7 @@ h3 {
 .nav-link {
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     transition: 150ms all ease-in-out;
 }
 
@@ -110,7 +110,7 @@ h3 {
     content: "";
     width: 50%;
     height: 3px;
-    background-color: #fff;
+    background-color: black;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
@@ -136,7 +136,7 @@ h3 {
 
 .hero {
     background-color: var(--bg-dark);
-    color: #fff;
+    color: black;
 }
 
 .hero-title span {
@@ -155,14 +155,14 @@ h3 {
     border-radius: 10rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     transition: 150ms all ease-in-out;
     font-size: 1.5em;
 }
 
 .vilan {
     background-color: var(--bg-dark);
-    color: #fff;
+    color: black;
     margin-bottom: -5%;
 }
 
@@ -196,7 +196,7 @@ h3 {
 
 .sidebar {
     width: 36%;
-    color: #fff;
+    color: black;
 }
 
 .sidebar-col {
@@ -213,7 +213,7 @@ h3 {
 .footer {
     background-color: var(--bg-dark);
     text-align: center;
-    color: #fff;
+    color: black;
 }
 
 .footer-col {
@@ -227,7 +227,7 @@ h3 {
 
 .footer-col a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     transition: 150ms all ease-in-out;
 }
 
