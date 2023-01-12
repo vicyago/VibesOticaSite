@@ -75,7 +75,7 @@ h3 {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 85%;
 }
 .nav-list a {
     font-size: 1.1rem;
