@@ -80,7 +80,7 @@ window.onload = function () {
     };
 };
 
-/* new slide 2 */
+// new slide 2 
 
 let slideIndex = 0;
 showSlides();
@@ -98,3 +98,22 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+// new slide 2 height responsive 
+
+// Get the div element
+let div = document.getElementById("slider-container");
+
+// Get the current height of the window
+let windowHeight = window.innerHeight;
+
+// Set the height of the div to the window height
+div.style.height = windowHeight + "px";
+
+// Listen for window resize events
+window.addEventListener("resize", function() {
+    // Update the window height
+    windowHeight = window.innerHeight;
+    // Update the div height
+    div.style.height = windowHeight + "px";
+});

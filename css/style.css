@@ -1,9 +1,9 @@
 :root {
-    --bg-darkest: #FF8800;
-    --bg-dark: #ff8800;
-    --bg-light: #d1d1d1;
+    --bg-darkest: white;
+    --bg-dark:white;
+    --bg-light: white;
     --bg-very-light: white;
-    --text-gold: #ffffff;
+    --text-gold: white;
 }
 
 * {
@@ -28,12 +28,12 @@ section {
 h2,
 h3 {
     margin-bottom: 1em;
-    color: var(--bg-darkest);
+    color: #FF8800;
 }
 
 .nav-link:hover,
 .footer-col a:hover {
-    color: #ffffff;
+    color: #FF8800;
 }
 
 .hero-btn:hover {
@@ -140,7 +140,7 @@ h3 {
 }
 
 .hero-title span {
-    color: var(--text-gold);
+    color: #FF8800;
 }
 
 .hero-text {
@@ -158,6 +158,7 @@ h3 {
     color: black;
     transition: 150ms all ease-in-out;
     font-size: 1.5em;
+    background-color: #FF8800;
 }
 
 .vilan {
@@ -211,7 +212,7 @@ h3 {
 }
 
 .footer {
-    background-color: var(--bg-dark);
+    background-color: #FF8800;
     text-align: center;
     color: black;
 }
