@@ -1,12 +1,12 @@
 :root {
     --bg-darkest: white;
-    --bg-dark:white;
+    --bg-dark: white;
     --bg-light: white;
     --bg-very-light: white;
     --text-gold: white;
 }
 
-@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url("https://fonts.cdnfonts.com/css/open-sans");
 
 * {
     margin: 0;
@@ -25,21 +25,21 @@ section {
 
 h2 {
     margin-bottom: 1em;
-    color: #FF8800;
+    color: #ff8800;
 }
 
 .nav-link:hover,
 .footer-col a:hover {
-    color: #FF8800;
+    color: #ffffff;
 }
 
 .hero-btn:hover {
-    background-color: #FF8800;
+    background-color: #ff8800;
     color: black;
 }
 
 .nav-toggle:hover {
-    background-color: #FF8800;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -137,7 +137,7 @@ h2 {
 }
 
 .hero-title span {
-    color: #FF8800;
+    color: #ff8800;
 }
 
 .hero-text {
@@ -155,7 +155,7 @@ h2 {
     color: black;
     transition: 150ms all ease-in-out;
     font-size: 1em;
-    background-color: #FF8800;
+    background-color: #ff8800;
 }
 
 .vilan {
@@ -173,17 +173,13 @@ h2 {
     width: 25%;
 }
 
-.features-col img{
-    width: 90%;
-}
-
 .colBorder {
     border-right: 5px solid rgb(255, 255, 255);
     border-width: thin;
 }
 
-.colBorder h5,h6{
-    
+.colBorder h5,
+h6 {
     margin-right: 1em;
 }
 
@@ -216,7 +212,7 @@ h2 {
 }
 
 .footer {
-    background-color: #FF8800;
+    background-color: #ff8800;
     text-align: center;
     color: black;
 }
@@ -236,12 +232,7 @@ h2 {
     transition: 150ms all ease-in-out;
 }
 
-.img90 img{
-    width: 90%;
-}
-
 @media (max-width: 760px) {
-
     .nav-container {
         width: 100%;
     }
@@ -301,12 +292,9 @@ h2 {
         margin-bottom: 2em;
     }
 
-    .footer {
-        text-align: start;
-    }
-
     .footer-col {
         margin-bottom: 1em;
+        text-align: center;
     }
 
     .features-col,
