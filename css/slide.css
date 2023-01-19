@@ -146,3 +146,153 @@ ul#move li:nth-child(5) {
     width: 100%;
     height: 100%;
 }
+
+/* new slide 3 */
+
+    .nemesis {
+    margin: 0px;
+    background-color: gainsboro;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .card-groups,
+  .big-card,
+  .card-group {
+    width: 35vmin;
+  }
+  .card-groups,
+  .card,
+  .card-group {
+    aspect-ratio: 5/7;
+  }
+  .card-group {
+    position: absolute;
+    transition: transform 400ms ease;
+  }
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    transition: transform 800ms cubic-bezier(0.05, 0.43, 0.25, 0.95);
+    background-position: center;
+    background-size: cover;
+  }
+  .big-card {
+    border-radius: 1vmin;
+  }
+  .little-card {
+    width: 16vmin;
+    border-radius: 2vmin;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Images */
+  .big-card:nth-child(2) {
+    transform: translateX(-10%) rotate(-1deg);
+    background-image: url("../img/325357485_1337599617077137_246400391011571011_n.jpg");
+  }
+  .big-card:nth-child(4) {
+    transform: rotate(2deg);
+    background-image: url("../img/312902625_1282965285838384_7431843168004056853_n.jpg");
+  }
+  .big-card:nth-child(6) {
+    transform: translateX(-6%) rotate(-3deg);
+    background-image: url("../img/311374838_131848536300090_5550859338158090436_n.jpg");
+  }
+  .big-card:nth-child(8) {
+    transform: translate(10%, 3%) rotate(5deg);
+    background-image: url("../img/311469886_623512506150301_5358605423341135_n.jpg");
+  }
+  .card-group .little-card:nth-child(1) {
+    background-image: url("../img/325336890_487354756889387_5301040460338977898_n.jpg");
+  }
+  .card-group .little-card:nth-child(3) {
+    background-image: url("../img/312949761_550260520194666_6849151243967347696_n.jpg");
+  }
+  .card-group .little-card:nth-child(5) {
+    background-image: url("../img/316332496_3406106716274276_4861403620236826849_n.jpg");
+  }
+  .card-group .little-card:nth-child(7) {
+    background-image: url("../img/324889922_629887198939478_7209633845934288362_n.jpg");
+  }
+  
+  .card-group:nth-child(2) .big-card:nth-child(8) {
+    background-image: url("../img/310212264_465300138895757_2552533481510803916_n.jpg") !important;
+  }
+  .card-group:nth-child(1) .big-card:nth-child(8) {
+    background-image: url("../img/310411170_490984552891474_8766645753514681176_n.jpg") !important;
+  }
+
+  .card-group:hover .big-card:nth-child(2) {
+    transform: translate(-75%, 16%) rotate(-24deg);
+  }
+  .card-group:hover .big-card:nth-child(4) {
+    transform: translate(-25%, 8%) rotate(-8deg);
+  }
+  .card-group:hover .big-card:nth-child(6) {
+    transform: translate(25%, 5%) rotate(8deg);
+  }
+  .card-group:hover .big-card:nth-child(8) {
+    transform: translate(75%, 16%) rotate(24deg);
+  }
+  .card-group:hover .little-card:nth-child(1) {
+    transform: translate(200%, -160%) rotate(-15deg);
+  }
+  .card-group:hover .little-card:nth-child(3) {
+    transform: translate(140%, 150%) rotate(15deg);
+  }
+  .card-group:hover .little-card:nth-child(5) {
+    transform: translate(-200%, -170%) rotate(15deg);
+  }
+  .card-group:hover .little-card:nth-child(7) {
+    transform: translate(-200%, 140%) rotate(-18deg);
+  }
+  .card-swiper-buttons {
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2vmin;
+  }
+  .card-swiper-buttons button {
+    font-size: 3.5vmin;
+    border-radius: 100%;
+    border: 0.5vmin solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    height: 8vmin;
+    width: 8vmin;
+    color: #FF8800;
+    border-color: #FF8800;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  #next-button:hover,
+  #previous-button:hover {
+    background-color: #FF8800;
+    box-shadow: 0px 0px 15px #FF8800;
+    border-color: black;
+    color: black;
+  }
+  .card-group[data-status="unknow"] {
+    transform: scale(0);
+  }
+  .card-group[data-status="active"] {
+    transition-delay: 300ms;
+  }
+  .card-group[data-status="after"] {
+    transform: translateX(50%) scale(0);
+  }
+  .card-group[data-status="before"] {
+    transform: translateX(-50%) scale(0);
+  }
+  .card-group[data-status="becoming-active-from-before"] {
+    transform: translateX(-50%) scale(0);
+    transition: none;
+  }
+  .card-group[data-status="becoming-active-from-after"] {
+    transform: translateX(50%) scale(0);
+    transition: none;
+  }
