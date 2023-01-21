@@ -1,0 +1,68 @@
+h1{
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Open Sans", serif;
+}
+
+.fa:hover{
+    color: #FD5428;
+}
+
+.container2{
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*CSS Grid*/
+.section-grid{
+   display: flex; 
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.grid-prod{
+  flex: 1 1 auto;
+  display: flex; 
+  flex-flow: row wrap;  
+}
+.prod-grid{
+  flex: 1 1 25%;
+  margin:2%;
+  padding:12px;
+}
+
+.prod-grid img{
+  width:100%;
+}
+h3, p{
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.btn{
+    background: #FD5428;
+    border: 1px solid #FD5428;
+    border-radius: 6px;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    margin: 10px; 
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background: white;
+    border: 2px solid #FD5428;
+    border-radius: 6px;
+    color: #FD5428;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    margin: 10px; 
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.centerFix {
+  text-align: center;
+}
+
