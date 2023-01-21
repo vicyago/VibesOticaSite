@@ -232,6 +232,17 @@ h6 {
     transition: 150ms all ease-in-out;
 }
 
+.zoom:hover img{
+  transform: scale(1.2); 
+}
+
+.footer-links ul{
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        column-gap: 1.5em;
+    }
+
 @media (max-width: 760px) {
     .nav-container {
         width: 100%;
@@ -310,6 +321,8 @@ h6 {
     .colBordel {
         border-left: none;
     }
+
+    
 }
 
 @keyframes navLinksFade {
