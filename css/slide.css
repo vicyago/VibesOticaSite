@@ -193,7 +193,7 @@ ul#move li:nth-child(5) {
 @media (max-width: 760px) {
     #slider-container {
         width: 100%;
-        height: 1150px;
+        height: 850px;
     }
 }
 

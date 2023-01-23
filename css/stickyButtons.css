@@ -39,7 +39,7 @@
         right: 21px;
     }
     .btn2top .sticky-btn.revealed {
-        bottom: 21px;
+        bottom: 5px;
     }
 }
 
@@ -82,6 +82,6 @@
         width: 36px;
     }
     .btn2contact .sticky-btn.revealed {
-        bottom: 21px;
+        bottom: 5px;
     }
 }
