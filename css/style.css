@@ -243,7 +243,25 @@ h6 {
         column-gap: 1.5em;
     }
 
-@media (max-width: 760px) {
+#maps {    
+    background-image: url("../img/Skies.png");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+#maps2 {    
+    background-image: url("../img/Skies.png");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+#maps3 {    
+    background-image: url("../img/Skies.png");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+@media (max-width: 760px) { 
     .nav-container {
         width: 100%;
     }
