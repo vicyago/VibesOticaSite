@@ -261,6 +261,24 @@ h6 {
     background-attachment: fixed;
 }
 
+#maps4 {
+    background-image: url("../img/Skies.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 615px) {
+    .slide {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 760px) {
+.slide {
+    margin-top: 10%;
+}
+
+}
 @media (max-width: 760px) {
     .nav-container {
         width: 100%;
@@ -307,14 +325,13 @@ h6 {
     }
 
     .flex > div {
-        flex: 50%; 
+        flex: 50%;
     }
 
-   
-.colBorder h5,
-h6 {
-    margin-right: 0em;
-}
+    .colBorder h5,
+    h6 {
+        margin-right: 0em;
+    }
 
     .hero-title {
         margin-bottom: 1em;
@@ -349,9 +366,6 @@ h6 {
 
     .colBordel {
         border-left: none;
-    }
-    #exameNone {
-        display: none;
     }
 }
 
