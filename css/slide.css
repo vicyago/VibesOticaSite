@@ -136,7 +136,7 @@ ul#move li:nth-child(5) {
 
 #slider-container {
     width: 100%;
-    min-height: 125vh;
+    min-height: 130vh;
     overflow: hidden;
     position: relative;
     z-index: -1;
