@@ -28,7 +28,6 @@ h2 {
     color: #ff8800;
 }
 
-.nav-link:hover,
 .footer-col a:hover {
     color: #ffffff;
 }
@@ -36,26 +35,6 @@ h2 {
 .hero-btn:hover {
     background-color: #ff8800;
     color: black;
-}
-
-.nav-toggle:hover {
-    background-color: #ffffff;
-}
-
-.navbar {
-    background-color: var(--bg-darkest);
-    padding: 1em 0;
-    display: flex;
-    align-items: center;
-    height: 5em;
-}
-
-.nav-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .container {
@@ -66,64 +45,6 @@ h2 {
 .flex {
     display: flex;
     justify-content: space-between;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-}
-.nav-list a {
-    font-size: 1.1rem;
-}
-.nav-link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    transition: 150ms all ease-in-out;
-}
-
-.nav-link-btn img:hover {
-    scale: 80%;
-    filter: invert(100%);
-}
-
-.nav-toggle {
-    background-color: var(--bg-dark);
-    width: 3.5em;
-    height: 3.5em;
-    border: none;
-    border-radius: 50%;
-    position: absolute;
-    display: none;
-    cursor: pointer;
-    transition: 150ms all ease-in-out;
-}
-
-.burger,
-.burger::before,
-.burger::after {
-    content: "";
-    width: 50%;
-    height: 3px;
-    background-color: black;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-
-.burger::before,
-.burger::after {
-    width: 100%;
-}
-
-.burger::before {
-    transform: translateY(-6px);
-}
-
-.burger::after {
-    transform: translateY(3px);
 }
 
 .hero-title {
@@ -280,43 +201,9 @@ h6 {
 
 }
 @media (max-width: 760px) {
-    .nav-container {
-        width: 100%;
-    }
-
     .logo {
         width: 100%;
         text-align: center;
-    }
-
-    .nav-list {
-        position: absolute;
-        flex-direction: column;
-        top: 10vh;
-        background-color: var(--bg-darkest);
-        width: 100%;
-        align-items: center;
-        transform: scale(1, 0);
-        transform-origin: top;
-        transition: all 200ms ease-in;
-    }
-
-    .nav-list-show {
-        transform: scale(1, 1);
-    }
-
-    .nav-item {
-        margin: 1em 0;
-    }
-
-    .nav-link {
-        opacity: 0;
-    }
-
-    .nav-toggle {
-        left: 1em;
-        top: 1em;
-        display: block;
     }
 
     .flex {

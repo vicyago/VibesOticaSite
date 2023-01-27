@@ -8,6 +8,7 @@
     <title>OticaVibes</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
     <link href="../VibesOticaSite/css/style.css" rel="stylesheet">
+    <link href="../VibesOticaSite/css/navbar.css" rel="stylesheet">
     <link href="../VibesOticaSite/css/stickyButtons.css" rel="stylesheet">
     <link href="../VibesOticaSite/css/popup.css" rel="stylesheet">
     <link href="../VibesOticaSite/css/slide.css" rel="stylesheet">
@@ -20,36 +21,25 @@
 
 <body>
 
-    <nav class="navbar" style="background: rgb(255,71,40);
-background: linear-gradient(0deg, rgba(255,71,40,1) 0%, rgba(253,97,40,1) 40%, rgba(253,135,35,1) 71%);">
-        <div class="nav-container">
-            <div class="logo">
-                <a href="#">
-                    <img src="../VibesOticaSite/img/logoImg1.png" alt="">
-                </a>
-            </div>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="oculosSol.html" class="nav-link">Óculos de Sol</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../VibesOticaSite/oculosGrau.html" class="nav-link">Óculos de Grau</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../VibesOticaSite/lentes.html" class="nav-link">Lentes de Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link nav-link-btn"><img src="../VibesOticaSite/img/shopping-cart.png"></a>
-                </li>
+    <nav class="nav">
+        <div class="logo">
+            <img src="img/logoImg1.png" alt="">
+        </div>
+        <div class="main_list" id="mainListDiv">
+            <ul class="main-nav">
+                <li><a href="#">Óculos de Sol</a></li>
+                <li><a href="#">Óculos de Grau</a></li>
+                <li><a href="#">Lentes de Contato</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#"><img src="img/shopping-cart.png" alt=""></a></li>
             </ul>
-            <button class="nav-toggle">
-                <span class="burger"></span>
+        </div>
+        <div class="media_button">
+            <button class="main_media_button" id="mediaButton">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
     </nav>
@@ -259,8 +249,8 @@ background: linear-gradient(0deg, rgba(255,71,40,1) 0%, rgba(253,97,40,1) 40%, r
 
     </section>
 
-<section class="features" id="maps2">
-</section>
+    <section class="features" id="maps2">
+    </section>
 
     <div id="slider-container">
         <div class="slide">
@@ -421,11 +411,12 @@ background: linear-gradient(0deg, rgba(255,71,40,1) 0%, rgba(253,97,40,1) 40%, r
 
             <div class="sidebar">
                 <div class="sidebar-col" style="background-color: transparent">
-                <div class="container zoom">
-                <a class="button" href="#popup_flight_travlDil2"><img src="../VibesOticaSite/img/endereço.png"></a>    
-                </div>
-                <br />
-                <a class="button" href="#popup_flight_travlDil2">Google Maps</a>
+                    <div class="container zoom">
+                        <a class="button" href="#popup_flight_travlDil2"><img
+                                src="../VibesOticaSite/img/endereço.png"></a>
+                    </div>
+                    <br />
+                    <a class="button" href="#popup_flight_travlDil2">Google Maps</a>
 
                 </div>
             </div>
@@ -433,7 +424,7 @@ background: linear-gradient(0deg, rgba(255,71,40,1) 0%, rgba(253,97,40,1) 40%, r
         </div>
     </section>
 
-    <section class="features" id="maps4">        
+    <section class="features" id="maps4">
     </section>
 
     <div id="popup_flight_travlDil2" class="overlay_flight_traveldil">
@@ -456,31 +447,32 @@ background: linear-gradient(0deg, rgba(255,71,40,1) 0%, rgba(253,97,40,1) 40%, r
                     óculos. Venha nos
                     visitar!</p>
             </div>
-                        
-                <div class="footer-col">
-                 <div class="footer-links">   
-                        <ul>
-                            <li>
-                                <a class="popHover" href="https://www.instagram.com/oticavibes/"><img
-                                        src="../VibesOticaSite/img/instagram.png"></a>
-                            </li>
-                            <li>
-                                <a class="popHover" href="mailto:marildablueberry@uol.com.br" title="email" role="link"
-                                    tabindex="0" target="blank"><img src="../VibesOticaSite/img/gmail.png"></a>
-                            </li>
-                            <li>
-                                <a class="popHover" href="https://api.whatsapp.com/send?phone=5519989128561&text="><img
-                                        src="../VibesOticaSite/img/whatsapp.png"></a>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="footer-col">
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a class="popHover" href="https://www.instagram.com/oticavibes/"><img
+                                    src="../VibesOticaSite/img/instagram.png"></a>
+                        </li>
+                        <li>
+                            <a class="popHover" href="mailto:marildablueberry@uol.com.br" title="email" role="link"
+                                tabindex="0" target="blank"><img src="../VibesOticaSite/img/gmail.png"></a>
+                        </li>
+                        <li>
+                            <a class="popHover" href="https://api.whatsapp.com/send?phone=5519989128561&text="><img
+                                    src="../VibesOticaSite/img/whatsapp.png"></a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
 
             <div class="footer-col">
                 <ul>
                     <li>
-                        <a href="#">Av. Brasília, 1040 - Vila Bressani, Paulínia - SP, 13140-474 - <span style="color: white;">019-989128561</span></a>
-                    </li>                    
+                        <a href="#">Av. Brasília, 1040 - Vila Bressani, Paulínia - SP, 13140-474 - <span
+                                style="color: white;">019-989128561</span></a>
+                    </li>
                 </ul>
             </div>
         </div>
