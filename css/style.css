@@ -16,7 +16,7 @@
 
 body {
     font-size: 1.2rem;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 section {
@@ -195,10 +195,9 @@ h6 {
 }
 
 @media (min-width: 760px) {
-.slide {
-    margin-top: 10%;
-}
-
+    .slide {
+        margin-top: 10%;
+    }
 }
 @media (max-width: 760px) {
     .logo {
